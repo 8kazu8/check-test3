@@ -33,3 +33,14 @@ $(function () {
     }
   });
 });
+$(function() {
+  $('[name="your-lesson"]:radio').change( function() {
+    if($('[id=lesson1]').prop('checked')){
+      $('.lesson').hide();
+      $('.lesson1').show();
+    } else if ($('[id=lesson2]').prop('checked')) {
+      $('.lesson').hide();
+      $('.lesson2').show();
+    } 
+  });
+});
