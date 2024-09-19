@@ -75,6 +75,12 @@ body {
 #reservation {
   max-width: 200px;
 }
+.lesson {
+  display: none;
+}
+.lesson1 {
+  display: block;
+}
 /* エラーメッセージ用 */
 .error-text {
   color: #de3f2e;
